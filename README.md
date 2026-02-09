@@ -11,20 +11,35 @@ This project uses that effect **intentionally**, turning the heater off earlier 
 ## Project Structure
 
 SmartTempControl/
+
 ├── Neuronetwork/
+
 │   ├── data_normalization/
+
 │   │   └── data.npz
+
 │   ├── full_nn_files/
+
 │   │   ├── neuronetwork.py
+
 │   │   └── nn_no_normalization.py
+
 │   ├── weights/
+
 │   │   └── weights.npz
+
 │   ├── main.py
+
 │   └── training.py
+
 ├── web_server/
+
 │   └── app.py
+
 ├── main.py
+
 ├── .gitignore
+
 └── README.md
 
 
