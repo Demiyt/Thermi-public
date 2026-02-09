@@ -9,28 +9,24 @@ In conventional heating systems, temperature continues to rise even after the he
 This project uses that effect **intentionally**, turning the heater off earlier to reach the target temperature more accurately.
 
 ## Project Structure
+
 SmartTempControl/
-│
 ├── Neuronetwork/
-│ ├── data normalization/
-│ │ └── data.npz # Normalized training data
-│ │
-│ ├── full nn files/
-│ │ ├── neuronetwork.py # Neural network implementation
-│ │ └── nn (no normalization).py
-│ │
-│ ├── weights/
-│ │ └── weights.npz # Trained model weights
-│ │
-│ ├── main.py # Neural network inference entry point
-│ └── training.py # Training script
-│
+│   ├── data_normalization/
+│   │   └── data.npz
+│   ├── full_nn_files/
+│   │   ├── neuronetwork.py
+│   │   └── nn_no_normalization.py
+│   ├── weights/
+│   │   └── weights.npz
+│   ├── main.py
+│   └── training.py
 ├── web_server/
-│ └── app.py # Web interface / API (Flask)
-│
-├── main.py # Main thermostat logic
+│   └── app.py
+├── main.py
 ├── .gitignore
 └── README.md
+
 
 
 
